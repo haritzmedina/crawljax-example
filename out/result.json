@@ -1,0 +1,1307 @@
+{
+  "states" : {
+    "state30" : {
+      "name" : "state30",
+      "url" : "http://kaixomundua.haritzmedina.com/map",
+      "candidateElements" : [ {
+        "top" : 19,
+        "left" : 328,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 275,
+        "left" : 328,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 19,
+        "left" : 584,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 275,
+        "left" : 584,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[4]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 19,
+        "left" : 72,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[5]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 19,
+        "left" : 840,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[7]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 275,
+        "left" : 840,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[8]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 19,
+        "left" : -184,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[9]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 275,
+        "left" : -184,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[10]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 19,
+        "left" : 1096,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[11]",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 30,
+      "failedEvents" : [ "xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[1]", "xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[2]", "xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[3]", "xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[4]", "xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[5]", "xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[7]", "xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[8]", "xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[11]" ]
+    },
+    "index" : {
+      "name" : "index",
+      "url" : "http://kaixomundua.haritzmedina.com/",
+      "candidateElements" : [ {
+        "top" : 5,
+        "left" : 925,
+        "xpath" : "/HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+        "width" : 20,
+        "height" : 21
+      }, {
+        "top" : 5,
+        "left" : 960,
+        "xpath" : "/HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[2]/DIV[2]/A[1]",
+        "width" : 18,
+        "height" : 21
+      }, {
+        "top" : 5,
+        "left" : 993,
+        "xpath" : "/HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+        "width" : 20,
+        "height" : 21
+      }, {
+        "top" : 47,
+        "left" : 645,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[1]",
+        "width" : 0,
+        "height" : 23
+      }, {
+        "top" : 47,
+        "left" : 645,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[2]",
+        "width" : 0,
+        "height" : 23
+      }, {
+        "top" : 47,
+        "left" : 645,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[3]",
+        "width" : 0,
+        "height" : 23
+      }, {
+        "top" : 47,
+        "left" : 645,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[4]",
+        "width" : 0,
+        "height" : 23
+      }, {
+        "top" : 47,
+        "left" : 645,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[5]",
+        "width" : 0,
+        "height" : 23
+      }, {
+        "top" : 5,
+        "left" : 5,
+        "xpath" : "/HTML[1]/BODY[1]/HEADER[1]/DIV[1]",
+        "width" : 1131,
+        "height" : 60
+      }, {
+        "top" : 5,
+        "left" : 5,
+        "xpath" : "/HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[1]",
+        "width" : 905,
+        "height" : 60
+      }, {
+        "top" : 5,
+        "left" : 910,
+        "xpath" : "/HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[2]",
+        "width" : 226,
+        "height" : 60
+      }, {
+        "top" : 5,
+        "left" : 925,
+        "xpath" : "/HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[2]/DIV[1]",
+        "width" : 20,
+        "height" : 22
+      }, {
+        "top" : 5,
+        "left" : 960,
+        "xpath" : "/HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[2]/DIV[2]",
+        "width" : 18,
+        "height" : 22
+      }, {
+        "top" : 5,
+        "left" : 993,
+        "xpath" : "/HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[2]/DIV[3]",
+        "width" : 20,
+        "height" : 22
+      }, {
+        "top" : 65,
+        "left" : 5,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]",
+        "width" : 1131,
+        "height" : 40
+      }, {
+        "top" : 65,
+        "left" : 5,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[1]/DIV[1]",
+        "width" : 113,
+        "height" : 40
+      }, {
+        "top" : 65,
+        "left" : 133,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[2]/DIV[1]",
+        "width" : 113,
+        "height" : 40
+      }, {
+        "top" : 65,
+        "left" : 261,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[3]/DIV[1]",
+        "width" : 113,
+        "height" : 40
+      }, {
+        "top" : 65,
+        "left" : 389,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[4]/DIV[1]",
+        "width" : 113,
+        "height" : 40
+      }, {
+        "top" : 65,
+        "left" : 517,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[5]/DIV[1]",
+        "width" : 113,
+        "height" : 40
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 16,
+      "id" : 0,
+      "failedEvents" : [ ]
+    },
+    "state2" : {
+      "name" : "state2",
+      "url" : "http://kaixomundua.haritzmedina.com/?language=es_ES",
+      "candidateElements" : [ ],
+      "fanIn" : 2,
+      "fanOut" : 0,
+      "id" : 2,
+      "failedEvents" : [ ]
+    },
+    "state3" : {
+      "name" : "state3",
+      "url" : "http://kaixomundua.haritzmedina.com/?language=eu_ES",
+      "candidateElements" : [ ],
+      "fanIn" : 12,
+      "fanOut" : 0,
+      "id" : 3,
+      "failedEvents" : [ ]
+    },
+    "state29" : {
+      "name" : "state29",
+      "url" : "http://kaixomundua.haritzmedina.com/map",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[4]/DIV[1]/DIV[2]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 65,
+        "left" : 258,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[3]/DIV[1]",
+        "width" : 111,
+        "height" : 40
+      }, {
+        "top" : 120,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]",
+        "width" : 1084,
+        "height" : 400
+      }, {
+        "top" : 120,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[1]",
+        "width" : 1084,
+        "height" : 60
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]",
+        "width" : 1084,
+        "height" : 300
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]",
+        "width" : 1084,
+        "height" : 300
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]",
+        "width" : 1084,
+        "height" : 300
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 1084,
+        "height" : 0
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 1084,
+        "height" : 0
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 19,
+        "left" : 328,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 275,
+        "left" : 328,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 19,
+        "left" : 584,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[3]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 275,
+        "left" : 584,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[4]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 19,
+        "left" : 72,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[5]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 275,
+        "left" : 72,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[6]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 19,
+        "left" : 840,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[7]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 275,
+        "left" : 840,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[8]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 19,
+        "left" : -184,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[9]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 275,
+        "left" : -184,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[10]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 19,
+        "left" : 1096,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[11]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 275,
+        "left" : 1096,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[12]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[2]",
+        "width" : 1084,
+        "height" : 0
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[3]",
+        "width" : 1084,
+        "height" : 0
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]",
+        "width" : 1084,
+        "height" : 0
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 19,
+        "left" : 328,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 275,
+        "left" : 328,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[2]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 19,
+        "left" : 584,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[3]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 275,
+        "left" : 584,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[4]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 19,
+        "left" : 72,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[5]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 275,
+        "left" : 72,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[6]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 19,
+        "left" : 840,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[7]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 275,
+        "left" : 840,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[8]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 19,
+        "left" : -184,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[9]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 275,
+        "left" : -184,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[10]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 19,
+        "left" : 1096,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[11]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 275,
+        "left" : 1096,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[12]",
+        "width" : 256,
+        "height" : 256
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 19,
+        "left" : 584,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 19,
+        "left" : 328,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 275,
+        "left" : 328,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 19,
+        "left" : 72,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[4]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 19,
+        "left" : 840,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[5]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 275,
+        "left" : 72,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[6]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 275,
+        "left" : 584,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[7]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 19,
+        "left" : 1096,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[8]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 275,
+        "left" : -184,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[9]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 19,
+        "left" : -184,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[10]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 275,
+        "left" : 840,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[11]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 275,
+        "left" : 1096,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[12]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[3]",
+        "width" : 1084,
+        "height" : 300
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[4]",
+        "width" : 1084,
+        "height" : 0
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[4]/DIV[1]",
+        "width" : 1084,
+        "height" : 0
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[4]/DIV[2]",
+        "width" : 1084,
+        "height" : 0
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[4]/DIV[3]",
+        "width" : 1084,
+        "height" : 0
+      }, {
+        "top" : 180,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[4]/DIV[4]",
+        "width" : 1084,
+        "height" : 0
+      }, {
+        "top" : 454,
+        "left" : 25,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]",
+        "width" : 66,
+        "height" : 26
+      }, {
+        "top" : 454,
+        "left" : 25,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/A[1]/DIV[1]",
+        "width" : 66,
+        "height" : 26
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[3]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[3]/DIV[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[3]/DIV[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 466,
+        "left" : 628,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[4]",
+        "width" : 248,
+        "height" : 14
+      }, {
+        "top" : 466,
+        "left" : 628,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[4]/DIV[1]",
+        "width" : 248,
+        "height" : 14
+      }, {
+        "top" : 466,
+        "left" : 628,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[4]/DIV[1]/DIV[1]",
+        "width" : 248,
+        "height" : 14
+      }, {
+        "top" : 466,
+        "left" : 628,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 1,
+        "height" : 0
+      }, {
+        "top" : 466,
+        "left" : 629,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[4]/DIV[1]/DIV[1]/DIV[2]",
+        "width" : 247,
+        "height" : 14
+      }, {
+        "top" : 467,
+        "left" : 628,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[4]/DIV[1]/DIV[2]",
+        "width" : 248,
+        "height" : 14
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[5]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[5]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 466,
+        "left" : 876,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[6]",
+        "width" : 86,
+        "height" : 14
+      }, {
+        "top" : 466,
+        "left" : 876,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[6]/DIV[1]",
+        "width" : 86,
+        "height" : 14
+      }, {
+        "top" : 466,
+        "left" : 876,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[6]/DIV[1]/DIV[1]",
+        "width" : 1,
+        "height" : 0
+      }, {
+        "top" : 466,
+        "left" : 877,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[6]/DIV[1]/DIV[2]",
+        "width" : 85,
+        "height" : 14
+      }, {
+        "top" : 467,
+        "left" : 876,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[6]/DIV[2]",
+        "width" : 86,
+        "height" : 14
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[7]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 466,
+        "left" : 962,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[8]",
+        "width" : 142,
+        "height" : 14
+      }, {
+        "top" : 466,
+        "left" : 962,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[8]/DIV[1]",
+        "width" : 142,
+        "height" : 14
+      }, {
+        "top" : 466,
+        "left" : 962,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[8]/DIV[1]/DIV[1]",
+        "width" : 1,
+        "height" : 0
+      }, {
+        "top" : 466,
+        "left" : 963,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[8]/DIV[1]/DIV[2]",
+        "width" : 141,
+        "height" : 14
+      }, {
+        "top" : 467,
+        "left" : 962,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[8]/DIV[2]",
+        "width" : 142,
+        "height" : 14
+      }, {
+        "top" : 363,
+        "left" : 1066,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 401,
+        "left" : 1066,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[1]",
+        "width" : 28,
+        "height" : 55
+      }, {
+        "top" : 401,
+        "left" : 1066,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[1]/DIV[1]",
+        "width" : 28,
+        "height" : 55
+      }, {
+        "top" : 401,
+        "left" : 1066,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 28,
+        "height" : 27
+      }, {
+        "top" : 407,
+        "left" : 1073,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 15,
+        "height" : 15
+      }, {
+        "top" : 428,
+        "left" : 1070,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[1]/DIV[1]/DIV[2]",
+        "width" : 19,
+        "height" : 1
+      }, {
+        "top" : 429,
+        "left" : 1066,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[1]/DIV[1]/DIV[3]",
+        "width" : 28,
+        "height" : 27
+      }, {
+        "top" : 435,
+        "left" : 1073,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[1]/DIV[1]/DIV[3]/DIV[1]",
+        "width" : 15,
+        "height" : 15
+      }, {
+        "top" : 363,
+        "left" : 1066,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[2]",
+        "width" : 28,
+        "height" : 28
+      }, {
+        "top" : 364,
+        "left" : 1067,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[2]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 364,
+        "left" : 1067,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[2]/DIV[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 364,
+        "left" : 1067,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[2]/DIV[2]/DIV[1]",
+        "width" : 26,
+        "height" : 26
+      }, {
+        "top" : 364,
+        "left" : 1067,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[2]/DIV[2]/DIV[2]",
+        "width" : 26,
+        "height" : 26
+      }, {
+        "top" : 364,
+        "left" : 1067,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[2]/DIV[2]/DIV[3]",
+        "width" : 26,
+        "height" : 26
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[3]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[3]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[9]/DIV[3]/DIV[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 190,
+        "left" : 30,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[10]",
+        "width" : 98,
+        "height" : 30
+      }, {
+        "top" : 190,
+        "left" : 30,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[10]/DIV[1]",
+        "width" : 44,
+        "height" : 30
+      }, {
+        "top" : 190,
+        "left" : 30,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[10]/DIV[1]/DIV[1]",
+        "width" : 44,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[10]/DIV[1]/DIV[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[10]/DIV[1]/DIV[2]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[10]/DIV[1]/DIV[2]/DIV[1]/SPAN[1]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 190,
+        "left" : 74,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[10]/DIV[2]",
+        "width" : 54,
+        "height" : 30
+      }, {
+        "top" : 190,
+        "left" : 74,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[10]/DIV[2]/DIV[1]",
+        "width" : 54,
+        "height" : 30
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[10]/DIV[2]/DIV[2]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[10]/DIV[2]/DIV[2]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[10]/DIV[2]/DIV[2]/DIV[1]/SPAN[1]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 29,
+      "failedEvents" : [ "xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[4]/DIV[1]/DIV[2]/A[1]" ]
+    },
+    "state33" : {
+      "name" : "state33",
+      "url" : "http://kaixomundua.haritzmedina.com/photo/5724160613416960",
+      "candidateElements" : [ {
+        "top" : 120,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[1]",
+        "width" : 759,
+        "height" : 500
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 33,
+      "failedEvents" : [ ]
+    },
+    "state28" : {
+      "name" : "state28",
+      "url" : "http://kaixomundua.haritzmedina.com/profile/5685265389584384",
+      "candidateElements" : [ ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 28,
+      "failedEvents" : [ ]
+    },
+    "state27" : {
+      "name" : "state27",
+      "url" : "http://kaixomundua.haritzmedina.com/photo/5685265389584384",
+      "candidateElements" : [ {
+        "top" : 186,
+        "left" : 828,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+        "width" : 45,
+        "height" : 21
+      }, {
+        "top" : 120,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]",
+        "width" : 1084,
+        "height" : 600
+      }, {
+        "top" : 120,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[1]",
+        "width" : 759,
+        "height" : 500
+      }, {
+        "top" : 120,
+        "left" : 823,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]",
+        "width" : 281,
+        "height" : 330
+      }, {
+        "top" : 125,
+        "left" : 828,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]",
+        "width" : 271,
+        "height" : 34
+      }, {
+        "top" : 159,
+        "left" : 828,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[2]",
+        "width" : 271,
+        "height" : 5
+      }, {
+        "top" : 164,
+        "left" : 828,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[3]",
+        "width" : 271,
+        "height" : 48
+      }, {
+        "top" : 212,
+        "left" : 828,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[4]",
+        "width" : 271,
+        "height" : 48
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 27,
+      "failedEvents" : [ ]
+    },
+    "state15" : {
+      "name" : "state15",
+      "url" : "http://kaixomundua.haritzmedina.com/register",
+      "candidateElements" : [ {
+        "top" : 416,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/FORM[1]/DIV[5]/INPUT[1]",
+        "width" : 256,
+        "height" : 50
+      }, {
+        "top" : 65,
+        "left" : 5,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[1]/DIV[1]",
+        "width" : 113,
+        "height" : 40
+      }, {
+        "top" : 65,
+        "left" : 517,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[5]/DIV[1]",
+        "width" : 113,
+        "height" : 40
+      }, {
+        "top" : 120,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]",
+        "width" : 1101,
+        "height" : 361
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 120,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/FORM[1]/DIV[1]",
+        "width" : 1101,
+        "height" : 70
+      }, {
+        "top" : 190,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/FORM[1]/DIV[2]",
+        "width" : 1101,
+        "height" : 70
+      }, {
+        "top" : 260,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/FORM[1]/DIV[3]",
+        "width" : 1101,
+        "height" : 70
+      }, {
+        "top" : 331,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/FORM[1]/DIV[4]",
+        "width" : 1101,
+        "height" : 70
+      }, {
+        "top" : 401,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/FORM[1]/DIV[5]",
+        "width" : 1101,
+        "height" : 80
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 15,
+      "failedEvents" : [ "xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[1]" ]
+    },
+    "state26" : {
+      "name" : "state26",
+      "url" : "http://kaixomundua.haritzmedina.com/photos",
+      "candidateElements" : [ {
+        "top" : 140,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[1]",
+        "width" : 310,
+        "height" : 210
+      }, {
+        "top" : 140,
+        "left" : 330,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[2]",
+        "width" : 310,
+        "height" : 210
+      }, {
+        "top" : 140,
+        "left" : 640,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[3]",
+        "width" : 310,
+        "height" : 210
+      }, {
+        "top" : 65,
+        "left" : 133,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[1]/A[2]/DIV[1]",
+        "width" : 113,
+        "height" : 40
+      }, {
+        "top" : 140,
+        "left" : 20,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]",
+        "width" : 1101,
+        "height" : 214
+      }, {
+        "top" : 145,
+        "left" : 25,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[1]/DIV[1]",
+        "width" : 300,
+        "height" : 200
+      }, {
+        "top" : 145,
+        "left" : 335,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[2]/DIV[1]",
+        "width" : 300,
+        "height" : 200
+      }, {
+        "top" : 145,
+        "left" : 645,
+        "xpath" : "/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[3]/DIV[1]",
+        "width" : 300,
+        "height" : 200
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 2,
+      "id" : 26,
+      "failedEvents" : [ ]
+    }
+  },
+  "edges" : [ {
+    "from" : "index",
+    "to" : "state2",
+    "text" : "Es",
+    "id" : "xpath /HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[2]/DIV[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Es, attributes={href=?language=es_ES}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "Eu",
+    "id" : "xpath /HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Eu, attributes={href=?language=eu_ES}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "Index",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Index, attributes={href=/}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "Photo",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[1]/A[2]",
+    "element" : "Element{node=[A: null], tag=A, text=Photo, attributes={href=/photos}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "Map",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[1]/A[3]",
+    "element" : "Element{node=[A: null], tag=A, text=Map, attributes={href=/map}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "Login",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[1]/A[4]",
+    "element" : "Element{node=[A: null], tag=A, text=Login, attributes={href=/login}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "Register",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[1]/A[5]",
+    "element" : "Element{node=[A: null], tag=A, text=Register, attributes={href=/register}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "Kaixo Mundua                    En            Es            Eu",
+    "id" : "xpath /HTML[1]/BODY[1]/HEADER[1]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Kaixo Mundua                    En            Es            Eu, attributes={id=head}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "Kaixo Mundua",
+    "id" : "xpath /HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Kaixo Mundua, attributes={id=headerTitle}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "En            Es            Eu",
+    "id" : "xpath /HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[2]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=En            Es            Eu, attributes={id=languages}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state2",
+    "text" : "Es",
+    "id" : "xpath /HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[2]/DIV[2]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Es, attributes={class=language, id=langEs}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "Eu",
+    "id" : "xpath /HTML[1]/BODY[1]/HEADER[1]/DIV[1]/DIV[2]/DIV[3]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Eu, attributes={class=language, id=langEu}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state15",
+    "text" : "Index                                    Photo                                    Map                                                        Login                                                        Register",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Index                                    Photo                                    Map                                                        Login                                                        Register, attributes={id=menu}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state15",
+    "to" : "state3",
+    "text" : "Hasiera",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[1]/A[1]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Hasiera, attributes={class=tab, data-active=, id=indexTab}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "Index",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[1]/A[1]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Index, attributes={class=tab, data-active=true, id=indexTab}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state26",
+    "text" : "Photo",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[1]/A[2]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Photo, attributes={class=tab, data-active=, id=photosTab}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state26",
+    "to" : "state27",
+    "text" : "",
+    "id" : "xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=photoLink, href=/photo/5685265389584384}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state27",
+    "to" : "state28",
+    "text" : "admin",
+    "id" : "xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=admin, attributes={href=/profile/5685265389584384}}",
+    "eventType" : "click"
+  }, {
+    "from" : "index",
+    "to" : "state29",
+    "text" : "Map",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[1]/A[3]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Map, attributes={class=tab, data-active=, id=mapTab}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state29",
+    "to" : "state30",
+    "text" : "Mapa",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[1]/A[3]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Mapa, attributes={class=tab, data-active=true, id=mapTab}}",
+    "eventType" : "click"
+  }, {
+    "from" : "state26",
+    "to" : "state33",
+    "text" : "",
+    "id" : "xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[2]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=photoLink, href=/photo/5724160613416960}}",
+    "eventType" : "click"
+  } ],
+  "statistics" : {
+    "duration" : "1 minute 18 seconds",
+    "crawlPaths" : 29,
+    "averageDomSize" : "7,482 kB",
+    "edges" : 21,
+    "startDate" : "2016-05-09 16:08:09 CEST",
+    "stateStats" : {
+      "leastFanOut" : {
+        "id" : "state30",
+        "count" : 0
+      },
+      "leastFanIn" : {
+        "id" : "index",
+        "count" : 0
+      },
+      "mostFanOut" : {
+        "id" : "index",
+        "count" : 16
+      },
+      "mostFanIn" : {
+        "id" : "state3",
+        "count" : 12
+      },
+      "totalNumberOfStates" : 10,
+      "urls" : {
+        "http://kaixomundua.haritzmedina.com/map" : [ "state30", "state29" ],
+        "http://kaixomundua.haritzmedina.com/" : [ "index" ],
+        "http://kaixomundua.haritzmedina.com/?language=es_ES" : [ "state2" ],
+        "http://kaixomundua.haritzmedina.com/?language=eu_ES" : [ "state3" ],
+        "http://kaixomundua.haritzmedina.com/photo/5724160613416960" : [ "state33" ],
+        "http://kaixomundua.haritzmedina.com/profile/5685265389584384" : [ "state28" ],
+        "http://kaixomundua.haritzmedina.com/photo/5685265389584384" : [ "state27" ],
+        "http://kaixomundua.haritzmedina.com/register" : [ "state15" ],
+        "http://kaixomundua.haritzmedina.com/photos" : [ "state26" ]
+      }
+    },
+    "failedEvents" : 10
+  },
+  "exitStatus" : "MAX_STATES"
+}

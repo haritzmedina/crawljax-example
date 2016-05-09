@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crawl overview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="CrawlJax">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="../css/shCoreDefault.css" rel="stylesheet" type="text/css" />
+<style>
+.tooltip-inner {
+	max-width: 300px;
+	word-wrap: break-word;
+}
+
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+							<a class="brand" href="../index.html#graph">Crawl overview</a>
+						<ul class="nav">
+									<li class="active" ><a href="#">State inspector</a></li>
+							</ul>
+			<div class="nav pull-right">
+				<a href="#" class="btn graphBtn" id='pauseButton' data-toggle="tooltip" data-placement="bottom" title="Pause the graph movement"><i class="icon-pause"></i></a>
+				<a href="#" class="btn graphBtn" rel="popover" data-placement="bottom"  data-original-title="What to do"><i class='icon-question-sign'></i></a>
+				<div style="display: none" id='popup-content'>
+					<p>You can double click a state to inspect it further.</p>
+					<p>Clicking an edge gives more details on the state transition.</p>
+					<p>Use your mouse to zoom in and out by scrolling, or drag the states and view around.</p>
+				</div>
+				<a href="result.json" class="btn" data-toggle="tooltip" data-placement="bottom" title="Download result as JSON"><i class='icon-download'></i></a>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</nav>	<div class='container' >
+		<h1>Summary of state30</h1>
+		<table class="table table-bordered table-striped">
+			<colgroup>
+				<col class="span1">
+				<col class="span7">
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>URL</th>
+					<td><a href='http://kaixomundua.haritzmedina.com/map'>http://kaixomundua.haritzmedina.com/map</a></td>
+				</tr>
+				<tr>
+					<th>Fan in</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Fan out</th>
+					<td>0</td>
+				</tr>
+				<tr>
+					<th>Interaction elements</th>
+					<td>10</td>
+				</tr>
+				<tr>
+					<th>Failed events</th>
+					<td>xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[1], xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[2], xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[3], xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[4], xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[5], xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[7], xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[8], xpath /HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[11]</td>
+			</tbody>
+		</table>
+		<ul id='tabs' class="nav nav-tabs">
+			<li class="active">
+				<a href="#screenshot">Screenshot</a>
+			</li>
+			<li>
+				<a href="#dom">Captured DOM</a>
+			</li>	
+			<li>
+				<a href="#interactions">Interactions</a>
+			</li>			
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" style="position: relative;" id='screenshot'>			
+				<img style='max-width: none;' border='0' src='../screenshots/state30.jpg' /> 
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 325px; top: 16px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[2]" class='hovers'
+				style="position: absolute; z-index: 10; left: 325px; top: 272px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[3]" class='hovers'
+				style="position: absolute; z-index: 10; left: 581px; top: 16px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[4]" class='hovers'
+				style="position: absolute; z-index: 10; left: 581px; top: 272px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[5]" class='hovers'
+				style="position: absolute; z-index: 10; left: 69px; top: 16px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[7]" class='hovers'
+				style="position: absolute; z-index: 10; left: 837px; top: 16px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[8]" class='hovers'
+				style="position: absolute; z-index: 10; left: 837px; top: 272px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[9]" class='hovers'
+				style="position: absolute; z-index: 10; left: -187px; top: 16px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[10]" class='hovers'
+				style="position: absolute; z-index: 10; left: -187px; top: 272px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[11]" class='hovers'
+				style="position: absolute; z-index: 10; left: 1093px; top: 16px; width: 2px; height: 2px; border: 2px solid orange;  " ></div>
+							</div>
+			<div class="tab-pane" id='dom'>
+				<h2>Captured DOM</h2>
+				<pre class='brush: html'>&lt;!DOCTYPE html&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;head&gt;&lt;style type=&quot;text/css&quot;&gt;.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.gm-style-pbc{transition:opacity ease-in-out;background-color:black;text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}&lt;/style&gt;&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}&lt;/style&gt;
+    
+        &lt;title&gt;Mapa - Kaixo Mundua&lt;/title&gt;
+        
+&lt;link href=&quot;stylesheet/map.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;script defer=&quot;defer&quot; async=&quot;&quot; src=&quot;https://maps.googleapis.com/maps/api/js?key=AIzaSyCbXo4tS_T_OQj2TQ313FbNOHawoLT6lcA&quot; style=&quot;&quot;&gt;&lt;/script&gt;
+&lt;script defer=&quot;defer&quot; src=&quot;js/map.js&quot;&gt;&lt;/script&gt;
+
+        &lt;link href=&quot;/stylesheet/default.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot; /&gt;
+        &lt;script src=&quot;/js/jquery-2.1.4.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;/js/default.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;/js/utils.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+        &lt;link href=&quot;/images/h.png&quot; type=&quot;image/png&quot; rel=&quot;icon&quot; /&gt;
+    
+&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://maps.googleapis.com/maps-api-v3/api/js/24/11/intl/es_ALL/common.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://maps.googleapis.com/maps-api-v3/api/js/24/11/intl/es_ALL/map.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://maps.googleapis.com/maps-api-v3/api/js/24/11/intl/es_ALL/util.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://maps.googleapis.com/maps-api-v3/api/js/24/11/intl/es_ALL/onion.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://maps.googleapis.com/maps/api/js/ViewportInfoService.GetViewportInfo?1m6&amp;amp;1m2&amp;amp;1d43.26035047188335&amp;amp;2d-2.2630566157125713&amp;amp;2m2&amp;amp;1d43.37650072865006&amp;amp;2d-1.7010392442607554&amp;amp;2u13&amp;amp;4ses-ES&amp;amp;5e0&amp;amp;6sm%40348000000&amp;amp;7b0&amp;amp;8e0&amp;amp;9b0&amp;amp;callback=_xdc_._lwhuwe&amp;amp;token=100739&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://maps.googleapis.com/maps-api-v3/api/js/24/11/intl/es_ALL/stats.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://maps.googleapis.com/maps-api-v3/api/js/24/11/intl/es_ALL/controls.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://maps.googleapis.com/maps-api-v3/api/js/24/11/intl/es_ALL/marker.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://maps.googleapis.com/maps/vt?pb=%211m4%211m3%211i13%212i4048%213i2999%211m4%211m3%211i13%212i4049%213i2999%211m4%211m3%211i13%212i4050%213i2999%211m4%211m3%211i13%212i4051%213i2999%211m4%211m3%211i13%212i4052%213i2999%211m4%211m3%211i13%212i4053%213i2999%211m4%211m3%211i13%212i4048%213i3000%211m4%211m3%211i13%212i4049%213i3000%211m4%211m3%211i13%212i4050%213i3000%211m4%211m3%211i13%212i4051%213i3000%211m4%211m3%211i13%212i4052%213i3000%211m4%211m3%211i13%212i4053%213i3000%212m3%211e0%212sm%213i348016645%213m9%212ses-ES%213sUS%215e18%2112m1%211e47%2112m3%211e37%212m1%211ssmartmaps%214e3%2112m1%215b1&amp;amp;callback=_xdc_._kam49w&amp;amp;token=59494&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttp%3A%2F%2Fkaixomundua.haritzmedina.com%2Fmap&amp;amp;4sAIzaSyCbXo4tS_T_OQj2TQ313FbNOHawoLT6lcA&amp;amp;callback=_xdc_._dt7dd1&amp;amp;token=49677&quot;&gt;&lt;/script&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;header&gt;
+    &lt;div id=&quot;head&quot;&gt;
+        &lt;div id=&quot;headerTitle&quot;&gt;Kaixo Mundua&lt;/div&gt;
+        &lt;div id=&quot;languages&quot;&gt;
+            &lt;div class=&quot;language&quot; id=&quot;langEn&quot;&gt;&lt;a href=&quot;?language=en_EN&quot;&gt;En&lt;/a&gt;&lt;/div&gt;
+            &lt;div class=&quot;language&quot; id=&quot;langEs&quot;&gt;&lt;a href=&quot;?language=es_ES&quot;&gt;Es&lt;/a&gt;&lt;/div&gt;
+            &lt;div class=&quot;language&quot; id=&quot;langEu&quot;&gt;&lt;a href=&quot;?language=eu_ES&quot;&gt;Eu&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/header&gt;
+&lt;div id=&quot;menu&quot;&gt;
+    &lt;!-- Always show --&gt;
+    &lt;a href=&quot;/&quot;&gt;
+        &lt;div data-active=&quot;&quot; class=&quot;tab&quot; id=&quot;indexTab&quot;&gt;
+            Hasiera
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;a href=&quot;/photos&quot;&gt;
+        &lt;div data-active=&quot;&quot; class=&quot;tab&quot; id=&quot;photosTab&quot;&gt;
+            Argazkia
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;a href=&quot;/map&quot;&gt;
+        &lt;div data-active=&quot;true&quot; class=&quot;tab&quot; id=&quot;mapTab&quot;&gt;
+            Mapa
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;!-- Show if user is not logged in --&gt;
+    
+        &lt;a href=&quot;/login&quot;&gt;
+            &lt;div data-active=&quot;&quot; class=&quot;tab&quot; id=&quot;loginTab&quot;&gt;
+                Saioa hasi
+            &lt;/div&gt;
+        &lt;/a&gt;
+        &lt;a href=&quot;/register&quot;&gt;
+            &lt;div data-active=&quot;&quot; class=&quot;tab&quot; id=&quot;registerTab&quot;&gt;
+                Erregistratu
+            &lt;/div&gt;
+        &lt;/a&gt;
+        &lt;!-- Show if user is logged in --&gt;
+    
+&lt;/div&gt;
+&lt;section id=&quot;content&quot;&gt;
+    
+&lt;div id=&quot;mapContent&quot;&gt;
+    &lt;div id=&quot;search&quot;&gt;
+        &lt;input type=&quot;text&quot; placeholder=&quot;Lekua bilatu&quot; id=&quot;searchInput&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;map&quot; style=&quot;position: relative; background-color: rgb(229, 227, 223); overflow: hidden;&quot;&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;&quot; class=&quot;gm-style&quot;&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; cursor: url(&amp;quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&amp;quot;), default;&quot;&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%;&quot;&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;&quot;&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 0;&quot;&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;&quot; aria-hidden=&quot;true&quot;&gt;&lt;div style=&quot;width: 256px; height: 256px; position: absolute; left: 308px; top: -161px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; position: absolute; left: 308px; top: 95px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; position: absolute; left: 564px; top: -161px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; position: absolute; left: 564px; top: 95px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; position: absolute; left: 52px; top: -161px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; position: absolute; left: 52px; top: 95px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; position: absolute; left: 820px; top: -161px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; position: absolute; left: 820px; top: 95px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; position: absolute; left: -204px; top: -161px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; position: absolute; left: -204px; top: 95px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; position: absolute; left: 1076px; top: -161px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; position: absolute; left: 1076px; top: 95px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;&quot;&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: -1;&quot;&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;&quot; aria-hidden=&quot;true&quot;&gt;&lt;div style=&quot;width: 256px; height: 256px; overflow: hidden; position: absolute; left: 308px; top: -161px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; overflow: hidden; position: absolute; left: 308px; top: 95px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; overflow: hidden; position: absolute; left: 564px; top: -161px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; overflow: hidden; position: absolute; left: 564px; top: 95px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; overflow: hidden; position: absolute; left: 52px; top: -161px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; overflow: hidden; position: absolute; left: 52px; top: 95px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; overflow: hidden; position: absolute; left: 820px; top: -161px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; overflow: hidden; position: absolute; left: 820px; top: 95px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; overflow: hidden; position: absolute; left: -204px; top: -161px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; overflow: hidden; position: absolute; left: -204px; top: 95px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1076px; top: -161px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1076px; top: 95px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 0;&quot;&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;&quot; aria-hidden=&quot;true&quot;&gt;&lt;div style=&quot;position: absolute; left: 308px; top: -161px; transition: opacity 200ms ease-out 0s;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i13%212i4050%213i2999%214i256%212m3%211e0%212sm%213i348016645%213m9%212ses-ES%213sUS%215e18%2112m1%211e47%2112m3%211e37%212m1%211ssmartmaps%214e0%215m1%215f2&amp;amp;token=122174&quot; draggable=&quot;false&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 308px; top: 95px; transition: opacity 200ms ease-out 0s;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i13%212i4050%213i3000%214i256%212m3%211e0%212sm%213i348016645%213m9%212ses-ES%213sUS%215e18%2112m1%211e47%2112m3%211e37%212m1%211ssmartmaps%214e0%215m1%215f2&amp;amp;token=84438&quot; draggable=&quot;false&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 564px; top: -161px; transition: opacity 200ms ease-out 0s;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i13%212i4051%213i2999%214i256%212m3%211e0%212sm%213i348016645%213m9%212ses-ES%213sUS%215e18%2112m1%211e47%2112m3%211e37%212m1%211ssmartmaps%214e0%215m1%215f2&amp;amp;token=119784&quot; draggable=&quot;false&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 564px; top: 95px; transition: opacity 200ms ease-out 0s;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i13%212i4051%213i3000%214i256%212m3%211e0%212sm%213i348016645%213m9%212ses-ES%213sUS%215e18%2112m1%211e47%2112m3%211e37%212m1%211ssmartmaps%214e0%215m1%215f2&amp;amp;token=82048&quot; draggable=&quot;false&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 52px; top: -161px; transition: opacity 200ms ease-out 0s;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i13%212i4049%213i2999%214i256%212m3%211e0%212sm%213i348016645%213m9%212ses-ES%213sUS%215e18%2112m1%211e47%2112m3%211e37%212m1%211ssmartmaps%214e0%215m1%215f2&amp;amp;token=38702&quot; draggable=&quot;false&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 52px; top: 95px; transition: opacity 200ms ease-out 0s;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i13%212i4049%213i3000%214i256%212m3%211e0%212sm%213i348016645%213m9%212ses-ES%213sUS%215e18%2112m1%211e47%2112m3%211e37%212m1%211ssmartmaps%214e0%215m1%215f2&amp;amp;token=966&quot; draggable=&quot;false&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 820px; top: -161px; transition: opacity 200ms ease-out 0s;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i13%212i4052%213i2999%214i256%212m3%211e0%212sm%213i348016645%213m9%212ses-ES%213sUS%215e18%2112m1%211e47%2112m3%211e37%212m1%211ssmartmaps%214e0%215m1%215f2&amp;amp;token=117394&quot; draggable=&quot;false&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 820px; top: 95px; transition: opacity 200ms ease-out 0s;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i13%212i4052%213i3000%214i256%212m3%211e0%212sm%213i348016645%213m9%212ses-ES%213sUS%215e18%2112m1%211e47%2112m3%211e37%212m1%211ssmartmaps%214e0%215m1%215f2&amp;amp;token=79658&quot; draggable=&quot;false&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: -204px; top: -161px; transition: opacity 200ms ease-out 0s;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i13%212i4048%213i2999%214i256%212m3%211e0%212sm%213i348016645%213m9%212ses-ES%213sUS%215e18%2112m1%211e47%2112m3%211e37%212m1%211ssmartmaps%214e0%215m1%215f2&amp;amp;token=41092&quot; draggable=&quot;false&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: -204px; top: 95px; transition: opacity 200ms ease-out 0s;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i13%212i4048%213i3000%214i256%212m3%211e0%212sm%213i348016645%213m9%212ses-ES%213sUS%215e18%2112m1%211e47%2112m3%211e37%212m1%211ssmartmaps%214e0%215m1%215f2&amp;amp;token=3356&quot; draggable=&quot;false&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 1076px; top: -161px; transition: opacity 200ms ease-out 0s;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i13%212i4053%213i2999%214i256%212m3%211e0%212sm%213i348016645%213m9%212ses-ES%213sUS%215e18%2112m1%211e47%2112m3%211e37%212m1%211ssmartmaps%214e0%215m1%215f2&amp;amp;token=115004&quot; draggable=&quot;false&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 1076px; top: 95px; transition: opacity 200ms ease-out 0s;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i13%212i4053%213i3000%214i256%212m3%211e0%212sm%213i348016645%213m9%212ses-ES%213sUS%215e18%2112m1%211e47%2112m3%211e37%212m1%211ssmartmaps%214e0%215m1%215f2&amp;amp;token=77268&quot; draggable=&quot;false&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 2; width: 100%; height: 100%; transition-duration: 0.3s; opacity: 0; display: none;&quot; class=&quot;gm-style-pbc&quot;&gt;&lt;p class=&quot;gm-style-pbt&quot;&gt;Para mover el mapa, utiliza dos dedos&lt;/p&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 3; width: 100%; height: 100%;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 4; width: 100%;&quot;&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;&quot;&gt;&lt;a style=&quot;position: static; overflow: visible; float: none; display: inline;&quot; target=&quot;_blank&quot; href=&quot;https://maps.google.com/maps?ll=43.318356,-1.981307&amp;amp;z=13&amp;amp;t=m&amp;amp;hl=es-ES&amp;amp;gl=US&amp;amp;mapclient=apiv3&quot; title=&quot;Haz clic aqu&iacute; para visualizar esta zona en Google Maps&quot;&gt;&lt;div style=&quot;width: 66px; height: 26px; cursor: pointer;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;&quot; src=&quot;https://maps.gstatic.com/mapfiles/api-3/images/google4_hdpi.png&quot; draggable=&quot;false&quot; /&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto,Arial,sans-serif; color: rgb(34, 34, 34); box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2); z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 392px; top: 60px;&quot;&gt;&lt;div style=&quot;padding: 0px 0px 10px; font-size: 16px;&quot;&gt;Datos de mapas&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;Datos de mapas &copy;2016 Google, Inst. Geogr. Nacional&lt;/div&gt;&lt;div style=&quot;width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;&quot;&gt;&lt;img style=&quot;position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png&quot; draggable=&quot;false&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;gmnoprint&quot; style=&quot;z-index: 1000001; position: absolute; right: 228px; bottom: 0px; width: 248px;&quot;&gt;&lt;div draggable=&quot;false&quot; style=&quot;-moz-user-select: none; height: 14px; line-height: 14px;&quot; class=&quot;gm-style-cc&quot;&gt;&lt;div style=&quot;opacity: 0.7; width: 100%; height: 100%; position: absolute;&quot;&gt;&lt;div style=&quot;width: 1px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;&quot;&gt;&lt;a style=&quot;color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;&quot;&gt;Datos de mapas&lt;/a&gt;&lt;span style=&quot;&quot;&gt;Datos de mapas &copy;2016 Google, Inst. Geogr. Nacional&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;gmnoscreen&quot; style=&quot;position: absolute; right: 0px; bottom: 0px;&quot;&gt;&lt;div style=&quot;font-family: Roboto,Arial,sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);&quot;&gt;Datos de mapas &copy;2016 Google, Inst. Geogr. Nacional&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;gmnoprint gm-style-cc&quot; style=&quot;z-index: 1000001; -moz-user-select: none; height: 14px; line-height: 14px; position: absolute; right: 142px; bottom: 0px;&quot; draggable=&quot;false&quot;&gt;&lt;div style=&quot;opacity: 0.7; width: 100%; height: 100%; position: absolute;&quot;&gt;&lt;div style=&quot;width: 1px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;&quot;&gt;&lt;a style=&quot;text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);&quot; href=&quot;https://www.google.com/intl/es-ES_US/help/terms_maps.html&quot; target=&quot;_blank&quot;&gt;T&eacute;rminos de uso&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;width: 25px; height: 25px; overflow: hidden; display: none; margin: 10px 14px; position: absolute; top: 0px; right: 0px;&quot;&gt;&lt;img style=&quot;position: absolute; left: -52px; top: -86px; width: 164px; height: 112px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;&quot; src=&quot;https://maps.gstatic.com/mapfiles/api-3/images/sv5.png&quot; draggable=&quot;false&quot; class=&quot;gm-fullscreen-control&quot; /&gt;&lt;/div&gt;&lt;div draggable=&quot;false&quot; style=&quot;-moz-user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;&quot; class=&quot;gm-style-cc&quot;&gt;&lt;div style=&quot;opacity: 0.7; width: 100%; height: 100%; position: absolute;&quot;&gt;&lt;div style=&quot;width: 1px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;&quot;&gt;&lt;a target=&quot;_new&quot; title=&quot;Informar a Google acerca de errores en las im&aacute;genes o en el mapa de carreteras&quot; style=&quot;font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;&quot; href=&quot;https://www.google.com/maps/@43.3183564,-1.981307,13z/data=%2110m1%211e1%2112b1?source=apiv3&amp;amp;rapsrc=apiv3&quot;&gt;Informar de un error de Maps&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;gmnoprint gm-bundled-control gm-bundled-control-on-bottom&quot; style=&quot;margin: 10px; -moz-user-select: none; position: absolute; bottom: 107px; right: 28px;&quot; draggable=&quot;false&quot; controlwidth=&quot;28&quot; controlheight=&quot;93&quot;&gt;&lt;div class=&quot;gmnoprint&quot; style=&quot;position: absolute; left: 0px; top: 38px;&quot; controlwidth=&quot;28&quot; controlheight=&quot;55&quot;&gt;&lt;div draggable=&quot;false&quot; style=&quot;-moz-user-select: none; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;&quot;&gt;&lt;div title=&quot;Acerca la imagen&quot; style=&quot;position: relative; width: 28px; height: 27px; left: 0px; top: 0px;&quot;&gt;&lt;div style=&quot;overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: 0px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;&quot; src=&quot;https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl_hdpi.png&quot; draggable=&quot;false&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;&quot;&gt;&lt;/div&gt;&lt;div title=&quot;Aleja la imagen&quot; style=&quot;position: relative; width: 28px; height: 27px; left: 0px; top: 0px;&quot;&gt;&lt;div style=&quot;overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;&quot;&gt;&lt;img style=&quot;position: absolute; left: 0px; top: -15px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;&quot; src=&quot;https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl_hdpi.png&quot; draggable=&quot;false&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;gm-svpc&quot; style=&quot;background-color: rgb(255, 255, 255); box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); border-radius: 2px; width: 28px; height: 28px; cursor: url(&amp;quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&amp;quot;), default; position: absolute; left: 0px; top: 0px;&quot; controlwidth=&quot;28&quot; controlheight=&quot;28&quot;&gt;&lt;div style=&quot;position: absolute; left: 1px; top: 1px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;position: absolute; left: 1px; top: 1px;&quot;&gt;&lt;div style=&quot;width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px;&quot; aria-label=&quot;Control del hombrecito naranja de Street View&quot;&gt;&lt;img style=&quot;position: absolute; left: -147px; top: -26px; width: 215px; height: 835px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5_hdpi.png&quot; draggable=&quot;false&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;&quot; aria-label=&quot;El hombrecito naranja est&aacute; en la parte superior del mapa.&quot;&gt;&lt;img style=&quot;position: absolute; left: -147px; top: -52px; width: 215px; height: 835px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5_hdpi.png&quot; draggable=&quot;false&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;&quot; aria-label=&quot;Control del hombrecito naranja de Street View&quot;&gt;&lt;img style=&quot;position: absolute; left: -147px; top: -78px; width: 215px; height: 835px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5_hdpi.png&quot; draggable=&quot;false&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;gmnoprint&quot; controlwidth=&quot;28&quot; controlheight=&quot;0&quot; style=&quot;display: none; position: absolute;&quot;&gt;&lt;div style=&quot;width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); cursor: pointer; background-color: rgb(255, 255, 255); display: none;&quot; title=&quot;Girar el mapa 90 grados&quot;&gt;&lt;img style=&quot;position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4_hdpi.png&quot; draggable=&quot;false&quot; /&gt;&lt;/div&gt;&lt;div style=&quot;width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); top: 0px; cursor: pointer; background-color: rgb(255, 255, 255);&quot; class=&quot;gm-tilt&quot;&gt;&lt;img style=&quot;position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;&quot; src=&quot;https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4_hdpi.png&quot; draggable=&quot;false&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;gmnoprint&quot; style=&quot;margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;&quot;&gt;&lt;div style=&quot;float: left;&quot; class=&quot;gm-style-mtc&quot;&gt;&lt;div style=&quot;direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(0, 0, 0); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); min-width: 28px; font-weight: 500;&quot; draggable=&quot;false&quot; title=&quot;Muestra el callejero&quot;&gt;Mapa&lt;/div&gt;&lt;div style=&quot;background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); position: absolute; left: 0px; top: 30px; text-align: left; display: none;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;&quot; draggable=&quot;false&quot; title=&quot;Muestra el callejero con relieve&quot;&gt;&lt;span role=&quot;checkbox&quot; style=&quot;box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;&quot;&gt;&lt;div style=&quot;position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;&quot;&gt;&lt;img style=&quot;position: absolute; left: -52px; top: -44px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;&quot; src=&quot;https://maps.gstatic.com/mapfiles/mv/imgs8.png&quot; draggable=&quot;false&quot; /&gt;&lt;/div&gt;&lt;/span&gt;&lt;label style=&quot;vertical-align: middle; cursor: pointer;&quot;&gt;Relieve&lt;/label&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;float: left;&quot; class=&quot;gm-style-mtc&quot;&gt;&lt;div style=&quot;direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(86, 86, 86); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); border-left: 0px none; min-width: 38px;&quot; draggable=&quot;false&quot; title=&quot;Muestra las im&aacute;genes de sat&eacute;lite&quot;&gt;Sat&eacute;lite&lt;/div&gt;&lt;div style=&quot;background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); position: absolute; right: 0px; top: 30px; text-align: left; display: none;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;&quot; draggable=&quot;false&quot; title=&quot;Muestra las im&aacute;genes con los nombres de las calles&quot;&gt;&lt;span role=&quot;checkbox&quot; style=&quot;box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;&quot;&gt;&lt;div style=&quot;position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;&quot;&gt;&lt;img style=&quot;position: absolute; left: -52px; top: -44px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;&quot; src=&quot;https://maps.gstatic.com/mapfiles/mv/imgs8.png&quot; draggable=&quot;false&quot; /&gt;&lt;/div&gt;&lt;/span&gt;&lt;label style=&quot;vertical-align: middle; cursor: pointer;&quot;&gt;Etiquetas&lt;/label&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/section&gt;
+&lt;footer&gt;
+
+&lt;/footer&gt;
+
+&lt;/body&gt;&lt;/html&gt;</pre>
+			</div>
+			<div class="tab-pane" id='interactions'>
+				<h2>Interactions</h2>
+				<table class="table table-bordered table-striped">
+					<tbody>
+						<tr>
+							<th>Xpath</th>
+							<th>Destination</tg>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[2]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[3]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[4]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[5]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[7]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[8]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[9]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[10]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[5]/DIV[1]/DIV[11]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+											</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../lib/shCore.js"></script>
+	<script type="text/javascript" src="../lib/shBrushXml.js"></script>
+	<script type="text/javascript" src="../lib/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+			SyntaxHighlighter.all()
+
+			$('#tabs a').click(function (e) {
+		  		e.preventDefault();
+		  		$(this).tab('show');
+			})
+		});
+    	
+    	$('.hovers').tooltip({
+    	    placement: function(a, element) {
+    	        var position = $(element).position();
+    	        if (position.left > 515) {
+    	            return "left";
+    	        }
+    	        if (position.left < 515) {
+    	            return "right";
+    	        }
+    	        if (position.top < 110){
+    	            return "bottom";
+    	        }
+    	        return "top";
+    	    }
+    	});
+	</script>
+</body>
+</html>

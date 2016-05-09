@@ -1,0 +1,161 @@
+{
+  "url" : "http://kaixomundua.haritzmedina.com/",
+  "basicAuthUrl" : null,
+  "browserConfig" : {
+    "browsertype" : "FIREFOX",
+    "numberOfBrowsers" : 1,
+    "browserBuilder" : { },
+    "remoteHubUrl" : null,
+    "defaultBuilder" : true,
+    "langOrNull" : null
+  },
+  "plugins" : [ "CrawlOverview" ],
+  "proxyConfiguration" : {
+    "port" : -1,
+    "hostname" : "none",
+    "type" : "NOTHING"
+  },
+  "crawlRules" : {
+    "crawlEvents" : [ "click" ],
+    "invariants" : [ ],
+    "oracleComparators" : [ {
+      "preConditions" : [ ],
+      "id" : "SimpleComparator",
+      "oracle" : { }
+    } ],
+    "ignoredFrameIdentifiers" : [ ],
+    "preCrawlConfig" : {
+      "waitConditions" : [ ],
+      "crawlConditions" : [ ],
+      "includedElements" : [ {
+        "tagName" : "A",
+        "id" : "id1528637575",
+        "eventType" : "click",
+        "withXpathExpression" : null,
+        "eventableCondition" : null
+      }, {
+        "tagName" : "BUTTON",
+        "id" : "id1190524793",
+        "eventType" : "click",
+        "withXpathExpression" : null,
+        "eventableCondition" : null
+      }, {
+        "tagName" : "INPUT",
+        "id" : "id472654579",
+        "eventType" : "click",
+        "withXpathExpression" : "//INPUT[@type='submit']",
+        "eventableCondition" : {
+          "id" : "id472654579",
+          "conditions" : [ ],
+          "inXPath" : "//INPUT[@type='submit']",
+          "linkedInputFields" : [ ]
+        }
+      }, {
+        "tagName" : "INPUT",
+        "id" : "id26117480",
+        "eventType" : "click",
+        "withXpathExpression" : "//INPUT[@type='button']",
+        "eventableCondition" : {
+          "id" : "id26117480",
+          "conditions" : [ ],
+          "inXPath" : "//INPUT[@type='button']",
+          "linkedInputFields" : [ ]
+        }
+      }, {
+        "tagName" : "DIV",
+        "id" : "id870698190",
+        "eventType" : "click",
+        "withXpathExpression" : null,
+        "eventableCondition" : null
+      } ],
+      "excludedElements" : [ ],
+      "filterAttributeNames" : [ "closure_hashcode_(\\w)*", "jquery[0-9]+" ]
+    },
+    "randomInputInForms" : false,
+    "inputSpecification" : {
+      "crawlElements" : [ {
+        "tagName" : "INPUT",
+        "id" : "id606548741",
+        "eventType" : "click",
+        "withXpathExpression" : "//INPUT[text()='Login']",
+        "eventableCondition" : {
+          "id" : "id606548741",
+          "conditions" : [ ],
+          "inXPath" : "//INPUT[text()='Login']",
+          "linkedInputFields" : [ "id1225616405", "id2101842856", "id1225616405", "id2101842856", "id1225616405", "id2101842856", "id1225616405", "id2101842856", "id1225616405", "id2101842856" ]
+        }
+      } ],
+      "formFieldNames" : {
+        "id1225616405" : [ "username" ],
+        "id2101842856" : [ "password" ]
+      },
+      "formFieldValues" : {
+        "id1225616405" : [ "haritz", "pepito", "admin" ],
+        "id2101842856" : [ "123456", "juanito" ]
+      }
+    },
+    "testInvariantsWhileCrawling" : true,
+    "clickOnce" : true,
+    "randomizeCandidateElements" : false,
+    "crawlHiddenAnchors" : false,
+    "waitAfterReloadUrl" : 50,
+    "waitAfterEvent" : 500,
+    "allCrawlElements" : [ {
+      "tagName" : "A",
+      "id" : "id1528637575",
+      "eventType" : "click",
+      "withXpathExpression" : null,
+      "eventableCondition" : null
+    }, {
+      "tagName" : "BUTTON",
+      "id" : "id1190524793",
+      "eventType" : "click",
+      "withXpathExpression" : null,
+      "eventableCondition" : null
+    }, {
+      "tagName" : "INPUT",
+      "id" : "id472654579",
+      "eventType" : "click",
+      "withXpathExpression" : "//INPUT[@type='submit']",
+      "eventableCondition" : {
+        "id" : "id472654579",
+        "conditions" : [ ],
+        "inXPath" : "//INPUT[@type='submit']",
+        "linkedInputFields" : [ ]
+      }
+    }, {
+      "tagName" : "INPUT",
+      "id" : "id26117480",
+      "eventType" : "click",
+      "withXpathExpression" : "//INPUT[@type='button']",
+      "eventableCondition" : {
+        "id" : "id26117480",
+        "conditions" : [ ],
+        "inXPath" : "//INPUT[@type='button']",
+        "linkedInputFields" : [ ]
+      }
+    }, {
+      "tagName" : "DIV",
+      "id" : "id870698190",
+      "eventType" : "click",
+      "withXpathExpression" : null,
+      "eventableCondition" : null
+    }, {
+      "tagName" : "INPUT",
+      "id" : "id606548741",
+      "eventType" : "click",
+      "withXpathExpression" : "//INPUT[text()='Login']",
+      "eventableCondition" : {
+        "id" : "id606548741",
+        "conditions" : [ ],
+        "inXPath" : "//INPUT[text()='Login']",
+        "linkedInputFields" : [ "id1225616405", "id2101842856", "id1225616405", "id2101842856", "id1225616405", "id2101842856", "id1225616405", "id2101842856", "id1225616405", "id2101842856", "id1225616405", "id2101842856" ]
+      }
+    } ]
+  },
+  "maximumStates" : 10,
+  "maximumRuntime" : 3600000,
+  "maximumDepth" : 3,
+  "stateVertexFactory" : null,
+  "outputDir" : "E:\\Haritz\\DevelopProjects\\crawljax-example\\out"
+}

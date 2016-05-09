@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crawl overview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="CrawlJax">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="../css/shCoreDefault.css" rel="stylesheet" type="text/css" />
+<style>
+.tooltip-inner {
+	max-width: 300px;
+	word-wrap: break-word;
+}
+
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+							<a class="brand" href="../index.html#graph">Crawl overview</a>
+						<ul class="nav">
+									<li class="active" ><a href="#">State inspector</a></li>
+							</ul>
+			<div class="nav pull-right">
+				<a href="#" class="btn graphBtn" id='pauseButton' data-toggle="tooltip" data-placement="bottom" title="Pause the graph movement"><i class="icon-pause"></i></a>
+				<a href="#" class="btn graphBtn" rel="popover" data-placement="bottom"  data-original-title="What to do"><i class='icon-question-sign'></i></a>
+				<div style="display: none" id='popup-content'>
+					<p>You can double click a state to inspect it further.</p>
+					<p>Clicking an edge gives more details on the state transition.</p>
+					<p>Use your mouse to zoom in and out by scrolling, or drag the states and view around.</p>
+				</div>
+				<a href="result.json" class="btn" data-toggle="tooltip" data-placement="bottom" title="Download result as JSON"><i class='icon-download'></i></a>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</nav>	<div class='container' >
+		<h1>Summary of state26</h1>
+		<table class="table table-bordered table-striped">
+			<colgroup>
+				<col class="span1">
+				<col class="span7">
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>URL</th>
+					<td><a href='http://kaixomundua.haritzmedina.com/photos'>http://kaixomundua.haritzmedina.com/photos</a></td>
+				</tr>
+				<tr>
+					<th>Fan in</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Fan out</th>
+					<td>2</td>
+				</tr>
+				<tr>
+					<th>Interaction elements</th>
+					<td>8</td>
+				</tr>
+				<tr>
+					<th>Failed events</th>
+					<td>-</td>
+			</tbody>
+		</table>
+		<ul id='tabs' class="nav nav-tabs">
+			<li class="active">
+				<a href="#screenshot">Screenshot</a>
+			</li>
+			<li>
+				<a href="#dom">Captured DOM</a>
+			</li>	
+			<li>
+				<a href="#interactions">Interactions</a>
+			</li>			
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" style="position: relative;" id='screenshot'>			
+				<img style='max-width: none;' border='0' src='../screenshots/state26.jpg' /> 
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 20; left: 17px; top: 137px; width: 312px; height: 212px; border: 2px solid green;  cursor: pointer;" onclick="location.href='state27.html'"></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[2]" class='hovers'
+				style="position: absolute; z-index: 20; left: 327px; top: 137px; width: 312px; height: 212px; border: 2px solid green;  cursor: pointer;" onclick="location.href='state33.html'"></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[3]" class='hovers'
+				style="position: absolute; z-index: 10; left: 637px; top: 137px; width: 312px; height: 212px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/A[2]/DIV[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 130px; top: 62px; width: 115px; height: 42px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 17px; top: 137px; width: 1103px; height: 216px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[1]/DIV[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 22px; top: 142px; width: 302px; height: 202px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[2]/DIV[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 332px; top: 142px; width: 302px; height: 202px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[3]/DIV[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 642px; top: 142px; width: 302px; height: 202px; border: 2px solid orange;  " ></div>
+							</div>
+			<div class="tab-pane" id='dom'>
+				<h2>Captured DOM</h2>
+				<pre class='brush: html'>&lt;!DOCTYPE html&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;head&gt;
+    
+        &lt;title&gt;Argazkia - Kaixo Mundua&lt;/title&gt;
+        
+&lt;link href=&quot;/stylesheet/photos.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot; /&gt;
+&lt;script src=&quot;/js/dropzone.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/js/photos.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+        &lt;link href=&quot;/stylesheet/default.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot; /&gt;
+        &lt;script src=&quot;/js/jquery-2.1.4.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;/js/default.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;/js/utils.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+        &lt;link href=&quot;/images/h.png&quot; type=&quot;image/png&quot; rel=&quot;icon&quot; /&gt;
+    
+&lt;/head&gt;
+&lt;body&gt;
+&lt;header&gt;
+    &lt;div id=&quot;head&quot;&gt;
+        &lt;div id=&quot;headerTitle&quot;&gt;Kaixo Mundua&lt;/div&gt;
+        &lt;div id=&quot;languages&quot;&gt;
+            &lt;div class=&quot;language&quot; id=&quot;langEn&quot;&gt;&lt;a href=&quot;?language=en_EN&quot;&gt;En&lt;/a&gt;&lt;/div&gt;
+            &lt;div class=&quot;language&quot; id=&quot;langEs&quot;&gt;&lt;a href=&quot;?language=es_ES&quot;&gt;Es&lt;/a&gt;&lt;/div&gt;
+            &lt;div class=&quot;language&quot; id=&quot;langEu&quot;&gt;&lt;a href=&quot;?language=eu_ES&quot;&gt;Eu&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/header&gt;
+&lt;div id=&quot;menu&quot;&gt;
+    &lt;!-- Always show --&gt;
+    &lt;a href=&quot;/&quot;&gt;
+        &lt;div data-active=&quot;&quot; class=&quot;tab&quot; id=&quot;indexTab&quot;&gt;
+            Hasiera
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;a href=&quot;/photos&quot;&gt;
+        &lt;div data-active=&quot;true&quot; class=&quot;tab&quot; id=&quot;photosTab&quot;&gt;
+            Argazkia
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;a href=&quot;/map&quot;&gt;
+        &lt;div data-active=&quot;&quot; class=&quot;tab&quot; id=&quot;mapTab&quot;&gt;
+            Mapa
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;!-- Show if user is not logged in --&gt;
+    
+        &lt;a href=&quot;/login&quot;&gt;
+            &lt;div data-active=&quot;&quot; class=&quot;tab&quot; id=&quot;loginTab&quot;&gt;
+                Saioa hasi
+            &lt;/div&gt;
+        &lt;/a&gt;
+        &lt;a href=&quot;/register&quot;&gt;
+            &lt;div data-active=&quot;&quot; class=&quot;tab&quot; id=&quot;registerTab&quot;&gt;
+                Erregistratu
+            &lt;/div&gt;
+        &lt;/a&gt;
+        &lt;!-- Show if user is logged in --&gt;
+    
+&lt;/div&gt;
+&lt;section id=&quot;content&quot;&gt;
+    
+
+&lt;div id=&quot;photosContainer&quot;&gt;&lt;a href=&quot;/photo/5685265389584384&quot; class=&quot;photoLink&quot;&gt;&lt;div class=&quot;imageRectangle&quot;&gt;&lt;img src=&quot;/api/photo/download/5685265389584384&quot; class=&quot;photo&quot; /&gt;&lt;/div&gt;&lt;/a&gt;&lt;a href=&quot;/photo/5724160613416960&quot; class=&quot;photoLink&quot;&gt;&lt;div class=&quot;imageRectangle&quot;&gt;&lt;img src=&quot;/api/photo/download/5724160613416960&quot; class=&quot;photo&quot; /&gt;&lt;/div&gt;&lt;/a&gt;&lt;a href=&quot;/photo/5668600916475904&quot; class=&quot;photoLink&quot;&gt;&lt;div class=&quot;imageRectangle&quot;&gt;&lt;img src=&quot;/api/photo/download/5668600916475904&quot; class=&quot;photo&quot; /&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;/section&gt;
+&lt;footer&gt;
+
+&lt;/footer&gt;
+
+&lt;/body&gt;&lt;/html&gt;</pre>
+			</div>
+			<div class="tab-pane" id='interactions'>
+				<h2>Interactions</h2>
+				<table class="table table-bordered table-striped">
+					<tbody>
+						<tr>
+							<th>Xpath</th>
+							<th>Destination</tg>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[1]</td>
+							<td><a href="state27.html">state27</a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[2]</td>
+							<td><a href="state33.html">state33</a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[3]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/A[2]/DIV[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[1]/DIV[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[2]/DIV[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/SECTION[1]/DIV[1]/A[3]/DIV[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+											</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../lib/shCore.js"></script>
+	<script type="text/javascript" src="../lib/shBrushXml.js"></script>
+	<script type="text/javascript" src="../lib/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+			SyntaxHighlighter.all()
+
+			$('#tabs a').click(function (e) {
+		  		e.preventDefault();
+		  		$(this).tab('show');
+			})
+		});
+    	
+    	$('.hovers').tooltip({
+    	    placement: function(a, element) {
+    	        var position = $(element).position();
+    	        if (position.left > 515) {
+    	            return "left";
+    	        }
+    	        if (position.left < 515) {
+    	            return "right";
+    	        }
+    	        if (position.top < 110){
+    	            return "bottom";
+    	        }
+    	        return "top";
+    	    }
+    	});
+	</script>
+</body>
+</html>
